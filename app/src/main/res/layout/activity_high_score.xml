@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mlab.quizapp.HighScoreActivity">
+
+    <LinearLayout
+        android:layout_width="366dp"
+        android:layout_height="362dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="74dp">
+
+        <TextView
+            android:id="@+id/txtScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="#3923"
+            android:textSize="30sp"
+            android:padding="15dp"
+            android:text="Your Score :" />
+
+        <TextView
+            android:id="@+id/txtHighestScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#892738"
+            android:textColor="#ffff"
+            android:padding="15dp"
+            android:textSize="30sp"
+            android:layout_marginBottom="15dp"
+            android:text="Highest Score :" />
+
+        <Button
+            android:id="@+id/tryBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="15dp"
+            android:background="#178634"
+            android:onClick="onClick"
+            android:text="Try Again"
+            android:textColor="#ffff"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/menuBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#893"
+            android:text="Main menu"
+            android:textSize="25sp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
